@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 80px;
+}
+
+section {
+  padding: 20px;
+  height: 80vh;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+#navbar ul li a {
+  color: transparent;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+  color: #ffd700;
+}
+
+#navbar.scrolled {
+  background-color: #333;
+}
+
+#navbar.scrolled nav a {
+  color: white;
+}
+
+#home {
+  background-color: #f3f4f6;
+}
+#about {
+  background-color: #e2e8f0;
+}
+#services {
+  background-color: #cbd5e1;
+}
+#contact {
+  background-color: #94a3b8;
+}
